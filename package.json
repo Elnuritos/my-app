@@ -17,14 +17,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^3.0.1",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test"
-  },  
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,8 +46,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "latest",
-    "typescript": "^4.5.4"
+    "@types/react-router-dom": "^5.3.3"
   }
-  
 }
