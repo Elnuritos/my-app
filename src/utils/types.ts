@@ -1,7 +1,5 @@
 export interface IPublication {
-    id: number;
+    id: string;
     title: string;
-    author: string;
-    date: string;
     content: string;
 }
